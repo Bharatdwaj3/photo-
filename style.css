@@ -1,0 +1,40 @@
+/* Set global styles for the page */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+	margin-top: 20px;
+}
+
+/* Style the container div */
+
+div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+	max-width: 1000px;
+}
+
+/* Style the images */
+
+img {
+	margin: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+	transform: scale(1.1);
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
